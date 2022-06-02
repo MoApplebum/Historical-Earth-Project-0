@@ -1,18 +1,9 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ColourSettings : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[CreateAssetMenu()]
+public class ColourSettings : ScriptableObject {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+    public Color planetColour;
+} 

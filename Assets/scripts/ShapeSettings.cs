@@ -1,18 +1,9 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class shapesettings : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[CreateAssetMenu()]
+public class ShapeSettings : ScriptableObject {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public float planetRadius = 1;
 }
